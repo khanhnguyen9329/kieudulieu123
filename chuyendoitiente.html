@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+
+<div >
+    <table>
+        <tr>
+            <td>Amount</td>
+            <td>From Currency</td>
+            <td>To Currency</td>
+        </tr>
+        <tr>
+            <td> <input onkeydown="demo()" onkeyup="demo1()" type="tel" id="Amount"></td>
+            <td><select id="From">
+                <option value="VND" >VND</option>
+                <option value="USA" >USA</option>
+            </select></td>
+
+            <td> <select  id="To">
+                <option value="USA">USA</option>
+                <option value="VND">VND  </option>
+            </select></td>
+        </tr>
+    </table>
+    <button id="bienmau" onmouseover="demo2()" onclick="result()">Kết quả</button>
+</div>
+
+<script src="chuyendoitiente.js">
+
+</script>
+<h1 style= "color: mediumblue " id="khanh"></h1>
+<style>
+    div{
+        border:10px seagreen ridge;
+        color: red;
+        background: gold;
+    }
+</style>
+</body>
+
+</html>
